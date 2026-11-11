@@ -11,7 +11,7 @@ conforme a [documentação oficial do desafio](https://sicredi-desafio-qe.readme
 
 | | |
 |---|---|
-| Linguagem | Java 25 |
+| Linguagem | Java 17 |
 | Build | Maven |
 | Framework de testes | JUnit 5 |
 | Cliente HTTP | RestAssured 5 |
@@ -47,13 +47,13 @@ src/test/java/br/com/sicredi/desafio/
 
 ## 2. Como executar
 
-**Pré-requisitos:** Java JDK 25+, Maven 3.9+ e acesso à internet
+**Pré-requisitos:** Java JDK 17+, Maven 3.9+ e acesso à internet
 (a suíte roda contra a API pública real, não há mocks).
 
 ```bash
 # clonar o repositório
-git clone <url-do-repositorio>
-cd sicredi-api-tests
+git clone https://github.com/jjalvessena-spec/teste-tecnico-sicredi.git
+cd teste-tecnico-sicredi
 
 # executar toda a suíte
 mvn clean test
