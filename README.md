@@ -162,6 +162,7 @@ exceção para todos os endpoints documentados.
    real retorna apenas o campo `message`, sem `name`. Confirmado ao rodar a
    suíte contra a API viva — o teste `deveRetornarErroComTokenInvalido` foi
    ajustado para validar apenas `message`.
+   
 ## 5. Melhorias sugeridas
 
 - **Padronizar os códigos de erro de autenticação** (`401` vs `403`)
